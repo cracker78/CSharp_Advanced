@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{84999225-7EE8-43D2-89B8-F5BB821A46E4}</ProjectGuid>
+    <ProjectGuid>{8FF64204-020F-43A8-9F14-0668C3FA7265}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BashSoft</RootNamespace>
     <AssemblyName>BashSoft</AssemblyName>
@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BashSoftProgram.cs" />
+    <Compile Include="ExceptionMessages.cs" />
+    <Compile Include="IOManager.cs" />
+    <Compile Include="OutputWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
